@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Product from '../signin/signIn';
+import SignIn from  '../signin/SignIn';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="App-main">
-
+          <SignIn/>
         </div>
       </div>
     </div>

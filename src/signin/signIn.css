@@ -1,7 +1,50 @@
 .btn {
-  border-radius: 25px;
+  border-radius: 15px;
+}
+
+.card, .card-img, .card-img-overlay{
+  border-radius: 40px !important;
 }
 
 .card {
-  border-radius: 25px;
+  max-width: 428px;
+  max-height: 212px;
+  
+}
+
+.card-img{
+  
+  
+  
+}
+
+.card-img-overlay{
+ 
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(18,18,18,0.8631827731092436) 50%, rgba(78,78,78,.4) 100%);
+
+}
+
+h1,h2,h3{
+  padding-left: 20px;
+  padding-top: 7px;
+  font-family: 'Inter';
+  color: white;
+}
+
+h1{
+  font-size: 28px;
+}
+
+h2{
+  font-size: 20px;
+  margin: 0;
+}
+
+
+
+.btn-light{
+  font-family: 'Inter';
+  color: black ;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
 }
