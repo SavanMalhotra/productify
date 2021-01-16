@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app/App';
 import reportWebVitals from './reportWebVitals';
+import Front from './front/Front'
 // import anime from 'animejs/lib/anime.es.js';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Front />
     <App />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

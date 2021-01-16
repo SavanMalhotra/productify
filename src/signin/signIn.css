@@ -2,49 +2,85 @@
   border-radius: 15px;
 }
 
-.card, .card-img, .card-img-overlay{
+.sign-card, .sign-card-img, .sign-card-img-overlay{
   border-radius: 40px !important;
+  margin: 0;
 }
 
-.card {
-  max-width: 428px;
-  max-height: 212px;
-  
-}
-
-.card-img{
-  
+.sign-card {
+  max-width: 430px;
   
   
 }
 
-.card-img-overlay{
- 
+img {
+  height: 217px;
+}
+
+.sign-card-img-overlay{
+  margin: 0;
+  
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(18,18,18,0.8631827731092436) 50%, rgba(78,78,78,.4) 100%);
 
 }
 
-h1,h2,h3{
+a{
+  align-content: center;
+}
+
+.signIn-h1, .signIn-h2, .signInh3, .btn-light{
   padding-left: 20px;
-  padding-top: 7px;
   font-family: 'Inter';
   color: white;
 }
 
-h1{
+.signIn-h1{
+  padding-top: 7px ;
+  padding-bottom: 0px ;
+  margin: 0;
   font-size: 28px;
 }
 
-h2{
-  font-size: 20px;
+.signIn-h2{
+  font-size: 16px;
   margin: 0;
+  padding-bottom: 3.5px;
 }
 
 
 
 .btn-light{
+  margin-top: 17.5px;
+  border-radius: 25px;
+  margin-left: 22.5px;
   font-family: 'Inter';
   color: black ;
-  padding-right: 10px !important;
-  padding-left: 10px !important;
+  font-size: 13.5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-content: center !important;
+  padding-left: 27px !important;
+  padding-right: 27px !important;
 }
+
+ 
+
+
+
+
+hr{
+  border-top: 2px solid white;
+  margin-top: 13.5px;
+  margin-bottom: 13.5px;
+}
+
+svg{
+  width: 200px !important;
+}
+
+.path {
+  stroke-dasharray: 100;
+  animation: dash 5s linear;
+  
+}
+

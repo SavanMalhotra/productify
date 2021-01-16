@@ -11,7 +11,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,3 +37,24 @@
     transform: rotate(360deg);
   }
 }
+
+.container-fluid{
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+.App-row{
+  border:1px solid black;
+  padding: 2cm;
+  background-color: darkgrey;
+  
+}  

@@ -1,0 +1,27 @@
+.yourGoals-h1{
+  font-family: 'Inter';
+  font-size: 30px;
+  color: #222831;
+  
+}
+
+
+
+.yourGoals-card{
+  width: 100% !important; 
+  background-color: white !important ; 
+}
+
+.goals-btn{
+  margin:0;
+  margin-left: 15px;
+}
+
+.card{
+  border-radius:0;
+  
+}
+
+.goal-col{
+  margin-bottom: 0;
+}
