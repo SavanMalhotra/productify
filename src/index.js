@@ -18,7 +18,7 @@ ReactDOM.render(
     <AuthProvider>
       <Router>
         <div>
-          <PrivateRoute exact path="/" component={Home} />
+          <PrivateRoute exact path="/" component={Front} />
           <Route exact path="/login" component={Login} />
         </div>
       </Router>

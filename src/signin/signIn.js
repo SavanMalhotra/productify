@@ -11,7 +11,7 @@ class SignIn extends Component {
       alert(error);
     }
   }
-
+  
   apple() {
     alert("Your Browser Does Not Support This Method. Please Try Another Method!");
   }

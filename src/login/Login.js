@@ -1,9 +1,19 @@
-import React, {Component} from 'react';
+import React, {Component, useContext, useCallback} from 'react';
+import { withRouter, Redirect } from "react-router";
 import logo from '../app/logo.svg';
 import './login.css';
 import SignIn from  '../signin/SignIn';
+import { AuthContext } from '../Auth';
 
-function Login() {
+
+const Login = () => {
+
+  const { currentUser } = useContext(AuthContext);
+
+  if (currentUser) {
+    return <Redirect to="/" />;
+  }
+
   return (
     <div className="container-fluid">
       <div className="App-header">
@@ -19,6 +29,6 @@ function Login() {
       </div>
     </div>
   );
-}
+};
 
-export default Login;
+export default withRouter(Login);

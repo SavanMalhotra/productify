@@ -1,9 +1,34 @@
+import React, {Component, useContext, useCallback} from 'react';
+import { withRouter, Redirect } from "react-router";
 import './front.css';
 import SignIn from  '../signin/SignIn';
 import YourGoals from '../YourGoals/YourGoals';
-import Info from '../Info/Info'
+import Info from '../Info/Info';
+import { AuthContext } from '../Auth';
+import firebase from "../firebase.js";
 
-function Front() {
+const Front = () => {
+
+  const logout = useCallback(
+    async event => {
+      event.preventDefault();
+      
+      try {
+        await 
+        firebase.auth().signOut();
+      } catch (error) {
+        alert(error);
+      }
+    },
+    []
+  );
+
+  const { currentUser } = useContext(AuthContext);
+
+  if (!currentUser) {
+    return <Redirect to="/Login" />;
+  }
+
   return (
     <div className="container-fluid">
          <div className="row">
@@ -13,7 +38,7 @@ function Front() {
             </div>
 
             <div className="col-sm front-button">
-            <a onClick="console.log('Hello')" class="btn btn-long float-right"> Logout</a>
+            <a onClick={ logout } class="btn btn-long float-right"> Logout</a>
             <a onClick="console.log('Hello')" class="btn btn-dark float-right"> <i class="fas fa-cog "></i> </a>
             <a onClick="console.log('Hello')" class="btn btn-dark float-right"> <b><i class="far fa-moon"></i></b></a>
             </div>
@@ -45,6 +70,6 @@ function Front() {
 
         </div>
   );
-}
+};
 
-export default Front;
+export default withRouter(Front);
