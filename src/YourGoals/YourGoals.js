@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './YourGoals.css';
+import edit from './edit-2.svg';
+import share from './share.svg';
 
 class YourGoals extends Component {
   render(){
@@ -12,9 +14,9 @@ class YourGoals extends Component {
           <div>
 
           <div className="col-sm goal-col">
-          <a onClick="console.log('Hello')" class="btn btn-dark float-right goals-btn"> <i class="fas fa-cog "></i> </a>
+          <a onClick="console.log('Hello')" class="btn btn-dark float-right goals-btn"><img src={share} className="goal-img"></img> </a>
 
-          <a onClick="console.log('Hello')" class="btn btn-dark float-right goals-btn"> <i class="fas fa-cog "></i> </a>
+          <a onClick="console.log('Hello')" class="btn btn-dark float-right goals-btn"><img src={edit} className="goal-img"></img>  </a>
           </div>
           </div>
           </div>

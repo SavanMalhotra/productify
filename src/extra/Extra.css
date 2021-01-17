@@ -1,0 +1,30 @@
+.card-square{
+    border-radius: 0 !important;
+  
+}
+
+.extra-card{
+  
+  background-color :#222831 !important;
+  width: fit-content;
+  margin-left: 2cm;
+  padding:80px !important;
+  padding-top: 68px !important;
+  padding-bottom:46px  !important;
+}
+
+.fa-heart{
+  color:red;
+  font-size: 125px;
+}
+
+
+
+.extra-h1{
+  font-size:58px;
+  color: white;
+}
+
+.extra-btn{
+  background-color:#222831; 
+}

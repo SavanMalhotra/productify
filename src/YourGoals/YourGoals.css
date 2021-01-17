@@ -5,23 +5,31 @@
   
 }
 
-
-
 .yourGoals-card{
   width: 100% !important; 
-  background-color: white !important ; 
+  background-color: white; 
+  border-radius:0;
+  border: none;
+}
+
+.yourGoals-card:hover{
+  /* background-color: #222831 ;
+  color: white; */
+  border: 1px solid black;
 }
 
 .goals-btn{
+  margin-top: 0 ;
+  padding-top: 12.5px !important;
   margin:0;
   margin-left: 15px;
 }
 
-.card{
-  border-radius:0;
-  
-}
-
 .goal-col{
   margin-bottom: 0;
+}
+
+.goal-img{
+  height: 35px;
+  width: 35px;
 }

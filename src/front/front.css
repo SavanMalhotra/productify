@@ -20,11 +20,11 @@
 }
 
 .btn-dark{
-  margin-top: 17.5px;
-  border-radius: 50%;
-  margin-left: 22.5px;
-  font-family: 'Inter';
-  color: white ;
+  margin-top: 17.5px !important;
+  border-radius: 50% !important;
+  margin-left: 22.5px !important;
+  font-family: 'Inter' !important;
+  color: white  !important;
   font-size: 25px;
   width: 65px;
   height: 65px;
@@ -33,16 +33,16 @@
 }
 
 .btn-long{
-  background-color: #343a40;
-  border-color: #343a40;
-  margin-top: 17.5px;
-  border-radius: 35px; 
-  margin-left: 22.5px;
-  font-family: 'Inter';
-  color: white ;
-  font-size: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+  margin-top: 17.5px !important;
+  border-radius: 35px !important; 
+  margin-left: 22.5px !important;
+  font-family: 'Inter' !important;
+  color: white  !important;
+  font-size: 20px !important;
+  padding-top: 15px !important ;
+  padding-bottom: 15px !important;
   padding-left: 27px !important;
   padding-right: 27px !important;
   align-content: center !important;
@@ -76,5 +76,15 @@
 .front-button{
   margin-right: 100px;
   margin-top: 25px;
+}
+
+.goal-img{
+  color: white;
+  height: 50px
+}
+
+.fa-cog, .fa-moon {
+  padding-top: 7px;
+  font-size: 37px;
 }
 

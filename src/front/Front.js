@@ -1,7 +1,10 @@
 import './front.css';
 import SignIn from  '../signin/SignIn';
 import YourGoals from '../YourGoals/YourGoals';
-import Info from '../Info/Info'
+import Info from '../Info/Info';
+import EmptyGoal from '../emptyGoal/EmptyGoal';
+import Extra from '../extra/Extra';
+
 
 function Front() {
   return (
@@ -16,9 +19,15 @@ function Front() {
             <a onClick="console.log('Hello')" class="btn btn-long float-right"> Logout</a>
             <a onClick="console.log('Hello')" class="btn btn-dark float-right"> <i class="fas fa-cog "></i> </a>
             <a onClick="console.log('Hello')" class="btn btn-dark float-right"> <b><i class="far fa-moon"></i></b></a>
+
+            
             </div>
 
+           
+
             </div>
+
+            <Extra />
 
             <div className="row">
                 <div className="col-sm float-left">
@@ -27,9 +36,9 @@ function Front() {
 
                   <YourGoals num="1." title="Drink More Water"/>
                   <YourGoals num="2." title="More Exercise"/>
-                  <YourGoals num="3." title="Empty"/>
-                  <YourGoals num="4." title="Empty"/>
-                  <YourGoals num="5." title="Empty"/>
+                  <EmptyGoal num="3."/>
+                  <EmptyGoal num="4."/>
+                  <EmptyGoal num="5."/>
                   </div>
                 </div>
 
