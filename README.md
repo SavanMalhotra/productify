@@ -24,6 +24,7 @@ For this specific project, we were unable to implement a daily reminder feature 
 
 ## Productify, Making You Reach Your Goals One Step At A Time!
 
+#### Hack The North 2020 ++ Submission
 #### Contributors:
 @BrianErlangga
 @SavanMalhotra
