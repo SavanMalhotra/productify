@@ -14,11 +14,13 @@ Aside from social media integration, Productify is built using React.js and CSS 
 
 ## What We Learned
 
-Through constant team engagement, we sought help from one another and understood that working together on the same tasks allowed us to effectively manage our time and ensure code quality. 
+Through constant team engagement, we sought help from one another and understood that working together on the same tasks allowed us to effectively manage our time and ensure code quality. We also spent the vast majority of our time learning, designing, and building our React.js web app!
 
 ## Challenges We Faced
 
 A key takeaway from building Productify was how important additional team members are. Unfortunately, the Productify team could not secure an additional two team members so the delegation of tasks was increased across the two members that were building the App. Moving forward we hope to find other exciting hackers to disperse task delegation and allow us to ship a fully functional service in a short timeframe. 
+
+For this specific project, we were unable to implement a daily reminder feature that would have sent users SMS notifications regarding their daily progress, in addition to a motivational quote. We also looked to successfully deploy our Hootsuite integration to enable users to share their progress through their social media feed using multi-media generated automatically by Productify, pertaining to their specific goal category. 
 
 ## Productify, Making You Reach Your Goals One Step At A Time!
 
