@@ -11,3 +11,7 @@ The goal of Productify is to spark accountability and provide motivation for use
 Productify is strategically built to integrate social media with the help of the Hootsuite API. Our objective is to spark a positive conversation within a users social media feeds to engage the community and generate a support group, ultimatelty keeping individuals accountable and motivating them to strive towards their goals. We belive Productify is a key service that will continue to support and grow positive social media usage.
 
 ## Productify, Making You Reach Your Goals One Step At A Time!
+
+#### Contributors:
+@BrianErlangga
+@SavanMalhotra
