@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../app/logo.svg';
+import './login.css';
 import SignIn from  '../signin/SignIn';
 
-function App() {
+function Login() {
   return (
     <div className="container-fluid">
       <div className="App-header">
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
