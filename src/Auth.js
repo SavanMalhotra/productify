@@ -13,6 +13,8 @@ export const AuthProvider = ({ children }) => {
       console.log(user);
       setPending(false)
     });
+
+    
   }, []);
 
   if(pending){

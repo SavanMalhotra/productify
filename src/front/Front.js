@@ -34,7 +34,7 @@ const Front = () => {
          <div className="row">
 
             <div className="col-sm float-left">
-                <h1 class="front-h1"><b>Hi, Brian</b></h1> 
+                <h1 class="front-h1"><b>Hello!</b></h1> 
             </div>
 
             <div className="col-sm front-button">
